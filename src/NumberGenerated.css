@@ -1,0 +1,24 @@
+/* The container must be positioned relative: */
+.genre-label {
+    color: white;
+    /* opacity: .8; */
+    font-size: 20px;
+}
+
+  
+  /* Style items (options): */
+  .select-items {
+    /* position: absolute; */
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: #282c34;
+    /* opacity: .8; */
+    color: white;
+    border: none;
+    scrollbar-highlight-color: none;
+    outline: none;
+    /* top: 100%; */
+    /* left: 0;
+    right: 0;
+    z-index: 99; */
+  }

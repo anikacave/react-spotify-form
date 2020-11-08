@@ -1,0 +1,15 @@
+.bar{
+    background-color: rgb(102, 101, 101);
+    color: white;
+    /* border-radius: 3px; */
+    /* color: white; */
+    opacity: 1;
+    height: 20px;
+    width: 160px;
+}
+
+
+::placeholder { 
+    color: white;
+    opacity: .8; 
+  }

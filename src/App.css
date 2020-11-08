@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100%;
+}
+
+.Main-Frame {
+  background-color: #282c34;
+  /* background: radial-gradient(rgb(76, 26, 192), #282c34); */
+  text-align: center;
+  height: 100%;
+}
+
+.triad {
+  width: 100%;
+  /* min-width: fit-content; */
+  /* padding: 100%; */
+  /* align-items: center; */
+  /* display: inline-block; */
+  /* padding-left: 10%; */
+  
+  background-color: #1d1f22;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* height: 45px; */
+  text-align: center;
+  height: 100px;
+  /* position: fixed; */
+
+}
+
+
+.formBox {
+  display: inline-block;
+  /* display: inline-block; */
+  /* position: relative; */
+  position: absolute;
+  /* text-align: center; */
+  /* position: sticky; */
+  top: 100px;
+  width: 100%;
+  left: 0px;
+  /* top: -20%; */
+
+  background-color: rgb(196, 196, 196, 0.4);
+}
+
+
+
+h2{
+  /* color:rgb(196, 196, 196); */
+  color: white;
+  /* color: blue; */
+}
+
+.searchResult {
+  /* position: absolute;
+  top: 40px;
+  left: 0px; */
+  width: 100px;
+}
+
+.quirky {
+  display: inline-block;
+  float: right;
+  /* float: inline-end; */
+}
+.searchBar {
+  /* float: left; */
+  display: inline-block;
+  
+}
+.positivity {
+  /* float: center; */
+
+  padding-left: 1%;
+  padding-top: 3px;
+  /* display: inline-block; */
+  /* position: absolute; */
+  position: relative;
+  left:100%;
+
+  /*  */
+  float: left;
+  /* left: 170px; */
+  
+}
+
+.num-gen {
+  display: inline-block;
+  /* float: center; */
+  vertical-align: auto;
+}
+.genre {
+  display:inline-block;
+  vertical-align: auto;
+  /* float: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.html {
+  height: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  background: radial-gradient(rgb(30, 12, 53), #282c34);
+  
+
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  /* display: inline; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+.body {
+  background-color: #282c34;
+}
+.btn {
+  color: whitesmoke;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/** Background **/
+
+/* .background {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: blueviolet;
+  background-size: cover;
+  background-position: center center;
+  filter: blur(8em) opacity(0.6);
+  position: absolute;
+}
+
+.main-wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  z-index: 1;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.main-container {
+  flex: 1;
+}
+
+.h1 {
+  color: white;
+  font-size: large;
+} */

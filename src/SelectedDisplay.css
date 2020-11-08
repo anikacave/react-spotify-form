@@ -1,0 +1,22 @@
+.search{
+    background-color: rgba(120, 10, 10, 0);
+    border: none;
+    scrollbar-highlight-color: none;
+    outline: none;
+    outline-color: none;
+}
+
+.listed{
+    background-color: rgba(120, 10, 10, 0);
+    color: white;
+}
+
+.p{
+    /* font-size: 10px; */
+    color: white;
+    font-size: small;
+}
+
+.holder{
+    align-items: center;
+}
